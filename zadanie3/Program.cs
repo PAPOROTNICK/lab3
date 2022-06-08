@@ -23,8 +23,8 @@ public class zadanie5
     public zadanie5()
     {
         AutoFill();
+        Printmas();
         MaxANDMinMas();
-        SINANDCOSANDTAN();
         zadanie2();
 
     }
@@ -52,6 +52,7 @@ public class zadanie5
     }
     public void Printmas()
     {
+        Console.WriteLine("____________________ввывод массива____________________");
         for (int i = 0; i < 5; i++)
         {
             for (int j = 0; j < 10; j++)
@@ -177,11 +178,10 @@ public class zadanie5
         }
     }
 
-        static void Main()
+        tatic void Main()
         {
             var zadanie5 = new zadanie5();
-            Console.WriteLine("____________________ввывод массива____________________");
-            zadanie5.Printmas();
+            
             Console.WriteLine("____________________задание первое____________________");
             zadanie5.PrintMinANDMax();
             Console.WriteLine("____________________рассчет sin,cos.tan____________________");
