@@ -178,7 +178,7 @@ public class zadanie5
         }
     }
 
-        tatic void Main()
+        static void Main()
         {
             var zadanie5 = new zadanie5();
             
